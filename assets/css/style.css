@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contant{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+}
+.calculator{
+    width: max-content;
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.calculator .input,.button{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+}
+#input-box{
+    width: 250px;
+    padding: 10px;
+}
+
+.operator{
+    color: #33ffd8;
+}
