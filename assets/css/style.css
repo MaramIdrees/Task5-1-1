@@ -12,7 +12,7 @@
     width: max-content;
     background-color: #3a4452;
     padding: 20px;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 .calculator .input,.button{
@@ -27,6 +27,7 @@
 }
 #input-box{
     width: 250px;
+    height: 80px;
     padding: 10px;
 }
 
